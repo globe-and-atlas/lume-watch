@@ -1,0 +1,10 @@
+{
+  "prefix": "LUME",
+  "flags": {
+    "LUME_FIXTURE": "1",
+    "LUME_HOUR": "10",
+    "LUME_MINUTE": "8",
+    "LUME_SECOND": "30",
+    "LUME_BATTERY": "82"
+  }
+}

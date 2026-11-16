@@ -1,0 +1,23 @@
+{
+  "name": "Lume",
+  "repo": "lume-watch",
+  "version": "0.1.1",
+  "url": "https://apps.repebble.com/7730100d622c463c92fd601c",
+  "pbw_exact": true,
+  "native_round_pixels_exact": true,
+  "matched_round_urls": [
+    "https://assets.repebble.com/screenshots/7730100d622c463c92fd601c/chalk/31099863-390e-4640-99dc-234ce763a852.png",
+    "https://assets.repebble.com/screenshots/7730100d622c463c92fd601c/chalk/768e7821-b773-4d9d-b395-7718d1c1409d.png",
+    "https://assets.repebble.com/screenshots/7730100d622c463c92fd601c/gabbro/5ac17486-9cc6-4dcf-bfa1-ac1ec6d5b2c8.png",
+    "https://assets.repebble.com/screenshots/7730100d622c463c92fd601c/gabbro/d1ff1d45-e016-40f6-948a-7e95ff8ed0ff.png"
+  ],
+  "existing_gallery_preserved": false,
+  "animated_preview_first": true,
+  "screenshots": [
+    "https://assets.repebble.com/screenshots/7730100d622c463c92fd601c/emery/6a90cde9-0bdf-4105-ab1b-22e143bd92fb.gif",
+    "https://assets.repebble.com/screenshots/7730100d622c463c92fd601c/emery/5a3ee26f-f05e-492b-8867-a4a2d916ac6b.png",
+    "https://assets.repebble.com/screenshots/7730100d622c463c92fd601c/emery/f3d00a59-4333-45d6-9a09-41d9c9d45716.png",
+    "https://assets.repebble.com/screenshots/7730100d622c463c92fd601c/chalk/31099863-390e-4640-99dc-234ce763a852.png",
+    "https://assets.repebble.com/screenshots/7730100d622c463c92fd601c/gabbro/5ac17486-9cc6-4dcf-bfa1-ac1ec6d5b2c8.png"
+  ]
+}

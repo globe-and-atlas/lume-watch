@@ -1,28 +1,23 @@
-# lume-watch
+---
+generated_by: "OpenAI Codex (GPT-6; exact variant not exposed)"
+timestamp: "2026-11-06T11:00:00-06:00"
+---
+# Lume
+Native Pebble Time 2 (Emery) analog watchface. Broad pencil hands, oversized cardinal numerals, eight batons, restrained recessed edges. No simulated glow or third-party branding.
 
-Scaffolded from `project-template` using the `workflow-python` profile.
+Six palettes: Warm black, Paper, Olive, Ivory, Navy, Oxblood. Custom background, foreground, accent colors. Optional seconds hand (Off by default). Optional date window or ISO/US/EU footer. Optional digital footer supports watch default, 12-hour, 24-hour. Battery uses the watch battery service.
 
-## Project Profile
+Build: `python3 execution/build.py`; verify: `python3 execution/verify.py`; host: `python3 -m pytest tests/test_policy.py`; settings: `node watchface/settings.test.js`.
 
-- `profile`: `workflow-python`
-- `deploy`: `local-only`
-- `runtime`: `python`
-- `loop_mode`: `data`
-- `knowledge_level`: `heavy`
+The mask generator uses OFL Archivo Black; attribution is in licenses/. Generated masks include only numerals. System Gothic supplies every label and footer.
 
-## Workshop Standard
+Parent-controlled native QA: clean/build with `LUME_FIXTURE=1`, install serially, then `python3 execution/capture_native.py --monitor PORT`. Fixture AppMessage keys 11000 hour,11001 minute,11002 second,11004 battery,11005 year,11006 month,11007 day. Production build strips LUME_* variables before clean/build. Do not publish fixture bundles.
 
-This project follows the 3-layer architecture:
 
-```text
-directives/     Layer 1 — What to do
-agent           Layer 2 — Decide → Delegate → Verify
-execution/      Layer 3 — Deterministic execution (when this profile uses it)
-```
+## Round-compatible release — 0.1.1
 
-## Next Steps
+Lume includes native layouts for Pebble Time2 (Emery200×228), original Time Round (Chalk180×180), and Round2 (Gabbro260×260). The rectangular layout and existing settings identities are preserved.
 
-1. Fill in the actual project description here.
-2. Update `task.md` with the first real milestone.
-3. Populate `knowledge/context.md`.
-4. Draft the first workflow directive in `directives/`.
+Build: `python3 execution/build.py`, then `python3 execution/verify.py`. Local bundle: `dist/Lume-0.1.1.pbw`. Native round previews: `media/round/`. Repeatable fixture/capture instructions: [round compatibility QA](knowledge/procedural/round_compatibility.md).
+
+This update is [publicly available](https://apps.repebble.com/7730100d622c463c92fd601c) with round screenshots. Public PBW bytes and screenshot pixels verify; physical-watch validation remains separate.
